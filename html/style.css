@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
+
+body {
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+#vehicle-rental-ui {
+  width: 25%;
+  background-color: #3a3f44;
+  border: 1px solid #23272a;
+  border-radius: 5px;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#vehicle-rental-ui.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#ui-header {
+  background-color: #23272a;
+  padding: 10px;
+  cursor: move;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #23272a;
+  border-radius: 5px 5px 0 0;
+  font-size: 2rem;
+}
+
+#close-btn {
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+}
+
+#ui-content {
+  padding: 10px;
+}
+
+.vehicle-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.vehicle-name {
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+  color: #9ca3af;
+}
+
+.vehicle-price {
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+  color: #9ca3af;
+  margin-bottom: 5px;
+}
+
+.rent-btn {
+  background-color: #42b289;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.rent-btn:hover {
+  background-color: rgba(39, 174, 95, 0.733);
+}
+
+* {
+  font-family: "Barlow Condensed", sans-serif;
+}
