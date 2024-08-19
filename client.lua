@@ -28,14 +28,14 @@ function OpenRentalMenu(rentPoint)
     SetNuiFocus(true, true)
 end
 
--- Register NUI callback for closing the menu
+-- Menu Close
 RegisterNUICallback('closeMenu', function(_, cb)
     SetNuiFocus(false, false)
     SendNUIMessage({ action = 'closeMenu' })
     cb('ok')
 end)
 
--- NUI callback to handle renting a vehicle
+-- NUI callback to rent
 RegisterNUICallback('rentVehicle', function(data, cb)
     if not currentRentPoint then
         SendNotification("Error: Nem található bérlési pont.")
@@ -72,7 +72,7 @@ function MonitorRentalVehicle(vehicle, netId)
     end)
 end
 
--- Function to spawn the rental vehicle
+-- Spawn Vehicle
 function SpawnRentalVehicle(model, spawnCoords, price, caution)
     local modelHash = GetHashKey(model)
     RequestModel(modelHash)
