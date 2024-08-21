@@ -5,7 +5,7 @@ Ez az MTA inspirálta rendszer egyszerű és hatékony megoldás a járművekbé
 
 ### Funkciók:
 - **Mozgatható UI:** A felhasználói élmény növelése érdekében a bérlési UI szabadon mozgatható a képernyőn, így a játékosok könnyedén elhelyezhetik azt a számukra legkényelmesebb helyen.
-- **Jármű Leadása:** A bérlési időszak végén a játékosok egyszerűen leadhatják a bérelt járművet egy kattintással, ami visszahelyezi a járművet a rendelkezésre álló parkolóhelyek egyikére.
+- **Jármű Leadása:** A bérlési időszak közben a játékosok egyszerűen leadhatják a bérelt járművet egy kattintással, ami visszahelyezi a járművet a rendelkezésre álló parkolóhelyek egyikére.
 - **Automatikus Törlés:** Ha a játékos egy meghatározott ideig nem tartózkodik a bérelt járműben, az automatikusan törlésre kerül.
 
 **Előnézet:** [Streamable videó megtekintése](https://streamable.com/xjw826)
