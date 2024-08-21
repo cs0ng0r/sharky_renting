@@ -1,4 +1,4 @@
-🇭🇺  
+:hungary:
 # MTA Inspirálta Járműbérlés
 
 Ez az MTA inspirálta rendszer egyszerű és hatékony megoldás a járművekbérlésére. Az alábbi funkciókkal biztosítja a felhasználók számára a zökkenőmentes és élvezetes élményt:
@@ -12,7 +12,7 @@ Ez az MTA inspirálta rendszer egyszerű és hatékony megoldás a járművekbé
 
 ------------------------------------------------------------------------------------------------------------
 
-🇺🇸  
+:us:
 # MTA Inspired Vehicle Renting
 
 This MTA  inspired system gives a straightforward and efficient way for players to rent vehicles. It offers users a seamless and enjoyable experience with the following features:
